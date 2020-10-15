@@ -1,0 +1,402 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<dict>
+		<key>Activate</key>
+		<string>Normal</string>
+		<key>CreationDate</key>
+		<real>624444288.14198506</real>
+		<key>Macros</key>
+		<array>
+			<dict>
+				<key>Actions</key>
+				<array>
+					<dict>
+						<key>ActionColor</key>
+						<string>Teal</string>
+						<key>IsDisclosed</key>
+						<false/>
+						<key>MacroActionType</key>
+						<string>Comment</string>
+						<key>StyledText</key>
+						<data>
+						cnRmZAAAAAADAAAAAgAAAAcAAABU
+						WFQucnRmAQAAAC6YAAAAKwAAAAEA
+						AACQAAAAe1xydGYxXGFuc2lcYW5z
+						aWNwZzEyNTJcY29jb2FydGYyNTEz
+						Clxjb2NvYXRleHRzY2FsaW5nMFxj
+						b2NvYXBsYXRmb3JtMHtcZm9udHRi
+						bH0Ke1xjb2xvcnRibDtccmVkMjU1
+						XGdyZWVuMjU1XGJsdWUyNTU7fQp7
+						XCpcZXhwYW5kZWRjb2xvcnRibDs7
+						fQp9AQAAACMAAAABAAAABwAAAFRY
+						VC5ydGYQAAAAlGV9X7YBAAAAAAAA
+						AAAAAA==
+						</data>
+						<key>Title</key>
+						<string>Move focus to page list</string>
+					</dict>
+					<dict>
+						<key>KeyCode</key>
+						<integer>5</integer>
+						<key>MacroActionType</key>
+						<string>SimulateKeystroke</string>
+						<key>Modifiers</key>
+						<integer>4352</integer>
+						<key>ReleaseAll</key>
+						<false/>
+						<key>TargetApplication</key>
+						<dict/>
+						<key>TargetingType</key>
+						<string>Front</string>
+					</dict>
+					<dict>
+						<key>ActionColor</key>
+						<string>Purple</string>
+						<key>IsDisclosed</key>
+						<false/>
+						<key>MacroActionType</key>
+						<string>Comment</string>
+						<key>StyledText</key>
+						<data>
+						cnRmZAAAAAADAAAAAgAAAAcAAABU
+						WFQucnRmAQAAAC6YAAAAKwAAAAEA
+						AACQAAAAe1xydGYxXGFuc2lcYW5z
+						aWNwZzEyNTJcY29jb2FydGYyNTEz
+						Clxjb2NvYXRleHRzY2FsaW5nMFxj
+						b2NvYXBsYXRmb3JtMHtcZm9udHRi
+						bH0Ke1xjb2xvcnRibDtccmVkMjU1
+						XGdyZWVuMjU1XGJsdWUyNTU7fQp7
+						XCpcZXhwYW5kZWRjb2xvcnRibDs7
+						fQp9AQAAACMAAAABAAAABwAAAFRY
+						VC5ydGYQAAAAlGV9X7YBAAAAAAAA
+						AAAAAA==
+						</data>
+						<key>Title</key>
+						<string>Get OneNote title and body</string>
+					</dict>
+					<dict>
+						<key>AllWindows</key>
+						<true/>
+						<key>AlreadyActivatedActionType</key>
+						<string>Normal</string>
+						<key>Application</key>
+						<dict>
+							<key>BundleIdentifier</key>
+							<string>com.microsoft.onenote.mac</string>
+							<key>Name</key>
+							<string>Microsoft OneNote</string>
+							<key>NewFile</key>
+							<string>/Applications/Microsoft OneNote.app</string>
+						</dict>
+						<key>MacroActionType</key>
+						<string>ActivateApplication</string>
+						<key>ReopenWindows</key>
+						<false/>
+						<key>TimeOutAbortsMacro</key>
+						<true/>
+					</dict>
+					<dict>
+						<key>IsActive</key>
+						<false/>
+						<key>MacroActionType</key>
+						<string>Pause</string>
+						<key>Time</key>
+						<string>0.5</string>
+						<key>TimeOutAbortsMacro</key>
+						<true/>
+					</dict>
+					<dict>
+						<key>MacroActionType</key>
+						<string>SelectMenuItem</string>
+						<key>Menu</key>
+						<array>
+							<string>Edit</string>
+							<string>Copy</string>
+						</array>
+						<key>TargetApplication</key>
+						<dict>
+							<key>BundleIdentifier</key>
+							<string>com.microsoft.onenote.mac</string>
+							<key>Name</key>
+							<string>Microsoft OneNote</string>
+							<key>NewFile</key>
+							<string>/Applications/Microsoft OneNote.app</string>
+						</dict>
+						<key>TargetingType</key>
+						<string>Specific</string>
+					</dict>
+					<dict>
+						<key>IsActive</key>
+						<false/>
+						<key>IsDisclosed</key>
+						<false/>
+						<key>MacroActionType</key>
+						<string>Pause</string>
+						<key>Time</key>
+						<string>0.5</string>
+						<key>TimeOutAbortsMacro</key>
+						<true/>
+					</dict>
+					<dict>
+						<key>Action</key>
+						<string>IgnoreCaseRegEx</string>
+						<key>Captures</key>
+						<array>
+							<string>onenoteCaptured</string>
+							<string>onenoteTitle</string>
+							<string>onenoteBlanks</string>
+							<string>onenoteRestofNote</string>
+						</array>
+						<key>MacroActionType</key>
+						<string>SearchRegEx</string>
+						<key>Search</key>
+						<string>\A(.+)(\n+)([\s\S]+)</string>
+						<key>Source</key>
+						<string>Clipboard</string>
+					</dict>
+					<dict>
+						<key>IsActive</key>
+						<false/>
+						<key>IsDisclosed</key>
+						<false/>
+						<key>MacroActionType</key>
+						<string>Pause</string>
+						<key>Time</key>
+						<string>0.5</string>
+						<key>TimeOutAbortsMacro</key>
+						<true/>
+					</dict>
+					<dict>
+						<key>ActionColor</key>
+						<string>Purple</string>
+						<key>IsDisclosed</key>
+						<false/>
+						<key>MacroActionType</key>
+						<string>Comment</string>
+						<key>StyledText</key>
+						<data>
+						cnRmZAAAAAADAAAAAgAAAAcAAABU
+						WFQucnRmAQAAAC6YAAAAKwAAAAEA
+						AACQAAAAe1xydGYxXGFuc2lcYW5z
+						aWNwZzEyNTJcY29jb2FydGYyNTEz
+						Clxjb2NvYXRleHRzY2FsaW5nMFxj
+						b2NvYXBsYXRmb3JtMHtcZm9udHRi
+						bH0Ke1xjb2xvcnRibDtccmVkMjU1
+						XGdyZWVuMjU1XGJsdWUyNTU7fQp7
+						XCpcZXhwYW5kZWRjb2xvcnRibDs7
+						fQp9AQAAACMAAAABAAAABwAAAFRY
+						VC5ydGYQAAAAlGV9X7YBAAAAAAAA
+						AAAAAA==
+						</data>
+						<key>Title</key>
+						<string>Get OneNote link</string>
+					</dict>
+					<dict>
+						<key>MacroActionType</key>
+						<string>SelectMenuItem</string>
+						<key>Menu</key>
+						<array>
+							<string>Notebooks</string>
+							<string>Pages</string>
+							<string>Copy Link to Page</string>
+						</array>
+						<key>TargetApplication</key>
+						<dict>
+							<key>BundleIdentifier</key>
+							<string>com.microsoft.onenote.mac</string>
+							<key>Name</key>
+							<string>Microsoft OneNote</string>
+							<key>NewFile</key>
+							<string>/Applications/Microsoft OneNote.app</string>
+						</dict>
+						<key>TargetingType</key>
+						<string>Specific</string>
+					</dict>
+					<dict>
+						<key>IsActive</key>
+						<false/>
+						<key>MacroActionType</key>
+						<string>Pause</string>
+						<key>Time</key>
+						<string>0.5</string>
+						<key>TimeOutAbortsMacro</key>
+						<true/>
+					</dict>
+					<dict>
+						<key>ActionColor</key>
+						<string>Orange</string>
+						<key>IsDisclosed</key>
+						<false/>
+						<key>MacroActionType</key>
+						<string>Comment</string>
+						<key>StyledText</key>
+						<data>
+						cnRmZAAAAAADAAAAAgAAAAcAAABU
+						WFQucnRmAQAAAC6YAAAAKwAAAAEA
+						AACQAAAAe1xydGYxXGFuc2lcYW5z
+						aWNwZzEyNTJcY29jb2FydGYyNTEz
+						Clxjb2NvYXRleHRzY2FsaW5nMFxj
+						b2NvYXBsYXRmb3JtMHtcZm9udHRi
+						bH0Ke1xjb2xvcnRibDtccmVkMjU1
+						XGdyZWVuMjU1XGJsdWUyNTU7fQp7
+						XCpcZXhwYW5kZWRjb2xvcnRibDs7
+						fQp9AQAAACMAAAABAAAABwAAAFRY
+						VC5ydGYQAAAAlGV9X7YBAAAAAAAA
+						AAAAAA==
+						</data>
+						<key>Title</key>
+						<string>Transform the link to openable on desktop app</string>
+					</dict>
+					<dict>
+						<key>Action</key>
+						<string>IgnoreCaseRegEx</string>
+						<key>Captures</key>
+						<array>
+							<string>OneNoteAll</string>
+							<string>OneNoteLink</string>
+						</array>
+						<key>MacroActionType</key>
+						<string>SearchRegEx</string>
+						<key>Search</key>
+						<string>onenote\:(.+)</string>
+						<key>Source</key>
+						<string>Clipboard</string>
+					</dict>
+					<dict>
+						<key>MacroActionType</key>
+						<string>SetVariableToText</string>
+						<key>Text</key>
+						<string>onenote://%Variable%onenoteLink%</string>
+						<key>Variable</key>
+						<string>onenoteLink</string>
+					</dict>
+					<dict>
+						<key>MacroActionType</key>
+						<string>SetVariableToText</string>
+						<key>Text</key>
+						<string>%Variable%onenoteRestofNote%</string>
+						<key>Variable</key>
+						<string>onenoteBody</string>
+					</dict>
+					<dict>
+						<key>ActionColor</key>
+						<string>Magenta</string>
+						<key>IsDisclosed</key>
+						<false/>
+						<key>MacroActionType</key>
+						<string>Comment</string>
+						<key>StyledText</key>
+						<data>
+						cnRmZAAAAAADAAAAAgAAAAcAAABU
+						WFQucnRmAQAAAC6YAAAAKwAAAAEA
+						AACQAAAAe1xydGYxXGFuc2lcYW5z
+						aWNwZzEyNTJcY29jb2FydGYyNTEz
+						Clxjb2NvYXRleHRzY2FsaW5nMFxj
+						b2NvYXBsYXRmb3JtMHtcZm9udHRi
+						bH0Ke1xjb2xvcnRibDtccmVkMjU1
+						XGdyZWVuMjU1XGJsdWUyNTU7fQp7
+						XCpcZXhwYW5kZWRjb2xvcnRibDs7
+						fQp9AQAAACMAAAABAAAABwAAAFRY
+						VC5ydGYQAAAAlGV9X7YBAAAAAAAA
+						AAAAAA==
+						</data>
+						<key>Title</key>
+						<string>Make the Reminder</string>
+					</dict>
+					<dict>
+						<key>DisplayKind</key>
+						<string>None</string>
+						<key>HonourFailureSettings</key>
+						<true/>
+						<key>IncludeStdErr</key>
+						<false/>
+						<key>MacroActionType</key>
+						<string>ExecuteAppleScript</string>
+						<key>Path</key>
+						<string></string>
+						<key>Text</key>
+						<string>tell application "Keyboard Maestro Engine"
+	set reminderName to getvariable "onenoteTitle"
+	set reminderLink to getvariable "onenoteLink"
+	set reminderBody to getvariable "onenoteBody"
+end tell
+
+set myReminderApp to "Apple" -- either Microsoft or Apple
+set theList to "Tasks"
+
+if myReminderApp is "Microsoft" then
+	tell application "Microsoft Outlook"
+		set myList to task folder theList
+		tell myList
+			make new task with properties {name:reminderName, content:reminderBody}
+		end tell
+	end tell
+else
+	tell application "Reminders"
+		set myList to list theList
+		tell myList
+			make new reminder with properties {name:reminderName, body:reminderBody}
+		end tell
+	end tell
+end if
+display notification "Reminder added to " &amp; theList</string>
+						<key>TimeOutAbortsMacro</key>
+						<true/>
+						<key>TrimResults</key>
+						<true/>
+						<key>TrimResultsNew</key>
+						<true/>
+						<key>UseText</key>
+						<true/>
+					</dict>
+				</array>
+				<key>CreationDate</key>
+				<real>623746214.44788301</real>
+				<key>ModificationDate</key>
+				<real>624453529.90970004</real>
+				<key>Name</key>
+				<string>Create task in Microsoft ToDo from OneNote page</string>
+				<key>Triggers</key>
+				<array>
+					<dict>
+						<key>FireType</key>
+						<string>Pressed</string>
+						<key>KeyCode</key>
+						<integer>18</integer>
+						<key>MacroTriggerType</key>
+						<string>HotKey</string>
+						<key>Modifiers</key>
+						<integer>768</integer>
+					</dict>
+				</array>
+				<key>UID</key>
+				<string>F817F806-DDEA-4B1E-AA8C-8818C12407BF</string>
+			</dict>
+		</array>
+		<key>Name</key>
+		<string>Micrsoft OneNote</string>
+		<key>Targeting</key>
+		<dict>
+			<key>Targeting</key>
+			<string>Included</string>
+			<key>TargetingApps</key>
+			<array>
+				<dict>
+					<key>BundleIdentifier</key>
+					<string>com.microsoft.onenote.mac</string>
+					<key>Name</key>
+					<string>Microsoft OneNote</string>
+					<key>NewFile</key>
+					<string>/Applications/Microsoft OneNote.app</string>
+				</dict>
+			</array>
+		</dict>
+		<key>ToggleMacroUID</key>
+		<string>82D397C7-A9D8-4BF4-AEFA-AD6D57AF229D</string>
+		<key>UID</key>
+		<string>A0545B11-1F38-4586-83BC-7311D1E156A8</string>
+	</dict>
+</array>
+</plist>
