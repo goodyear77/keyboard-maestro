@@ -1,6 +1,6 @@
 # keyboard-maestro
 
-The following repository contains useful Keyboard Maestro macros that can be used to create a workflow centered around personal productivity. the workflow is detailed here <insert Medium link> and this repository acts as a repository for all configuration files needed in the workflow.
+The following repository contains useful Keyboard Maestro macros that can be used to create a workflow centered around personal productivity. the workflow is detailed here https://link.medium.com/9y7nHilpBab and this repository acts as a repository for all configuration files needed in the workflow.
 
 The following macros have been created:
 
