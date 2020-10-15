@@ -8,6 +8,6 @@ The following macros have been created:
 2. Global hotkey to create new Microsoft OneNote page from anywhere
 3. Global hotkey to create new Microsoft ToDo task from anywhere
 4. Outlook for MAC (Old Outlook 2016 version): Search for email which generated the task in Microsoft ToDo
-5. Outlook for MAC (New Outlook 2019 version): Search for email which generated the task in Microsoft ToDo
+5. Outlook for MAC (New Outlook 2020 version): Search for email which generated the task in Microsoft ToDo
 
 To import the Keyboard Maestro files, download the .kmmacros-files you want to use, and import the files into Keyboard Maestro via "File->Import Macros Safely...".
