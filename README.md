@@ -22,7 +22,7 @@ Some configuration details for the more complex macros in case you would like to
 
 *Apple script:*
 
-tell application "Keyboard Maestro Engine"
+```tell application "Keyboard Maestro Engine"
 	set reminderName to getvariable "onenoteTitle"
 	set reminderLink to getvariable "onenoteLink"
 	set reminderBody to getvariable "onenoteBody"
@@ -46,7 +46,7 @@ else
 		end tell
 	end tell
 end if
-display notification "Reminder added to " & theList
+display notification "Reminder added to " & theList```
 
 **4. Outlook for MAC (Old Outlook 2016 version): Select subject line in ToDo task and search in Outlook:**
 
@@ -56,12 +56,12 @@ display notification "Reminder added to " & theList
 
 *Apple script to move focus to Archive folder:*
 
-tell application "Microsoft Outlook"
+```tell application "Microsoft Outlook"
 tell the first main window
 set view to mail view
 end tell
 set selected folder to mail folder named "Archive"
-end tell
+end tell```
 
 **5. Outlook for MAC (New Outlook 2020 version): Select subject line in ToDo task and search in Outlook**
 
