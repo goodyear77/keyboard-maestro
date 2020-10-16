@@ -14,7 +14,7 @@ To import the Keyboard Maestro files, download the .kmmacros-files you want to u
 
 Some configuration details for the more complex macros in case you would like to create them from scratch:
 
-**1. Create task in Microsoft ToDo from OneNote page
+**1. Create task in Microsoft ToDo from OneNote page**
 
 RegExp syntax:
 
@@ -48,7 +48,7 @@ else
 end if
 display notification "Reminder added to " & theList
 
-**4. Outlook for MAC (Old Outlook 2016 version): Select subject line in ToDo task and search in Outlook:
+**4. Outlook for MAC (Old Outlook 2016 version): Select subject line in ToDo task and search in Outlook:**
 
 RegExp syntax: 
 
@@ -63,7 +63,7 @@ end tell
 set selected folder to mail folder named "Archive"
 end tell
 
-**5. Outlook for MAC (New Outlook 2020 version): Select subject line in ToDo task and search in Outlook
+**5. Outlook for MAC (New Outlook 2020 version): Select subject line in ToDo task and search in Outlook**
 
 RegExp syntax: 
 
