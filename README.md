@@ -60,10 +60,10 @@ display notification "Reminder added to " & theList
 
 ```
 tell application "Microsoft Outlook"
-tell the first main window
-set view to mail view
-end tell
-set selected folder to mail folder named "Archive"
+	tell the first main window
+		set view to mail view
+	end tell
+	set selected folder to mail folder named "Archive"
 end tell
 ```
 
